@@ -52,6 +52,10 @@ public class Calculator
 		case "/":
 		    result = x / y;
 		    break;
+		    
+		case "%":
+		    result = x % y;
+		    break;
 
 		default:
 		    System.out.println("Unknown operator");

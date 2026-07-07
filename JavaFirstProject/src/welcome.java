@@ -8,7 +8,8 @@ public class welcome
 	// main method begins execution of Java application
 	public static void main( String[] args )
 	{
-		System.out.println( "Welcome to Java Programming!" );
+		//System.out.println( "Welcome \nto \nJava \nProgramming!" );
+		System.out.printf( "%s\n%s\n", "Welcome to", "Java Programming!" );
 		//addtwonumbers();
 		//testExclusiveOROperator();
 		//testCalculator();
@@ -18,7 +19,7 @@ public class welcome
 	
 	// Method to add and multiple two numbers
 	
-	private static void addtwonumbers()
+	public static void addtwonumbers()
 	{
 	    new AddTwoNumbers();
 	    AddTwoNumbers.testExclusiveOROperator();
@@ -31,9 +32,10 @@ public class welcome
 		
 		Calculator calculator = new Calculator();
 		calculator.setInfo("Muhammed Asiyanbola");
+		System.out.println(calculator.getInfo());
 		SessionManager sessionmanager = new SessionManager(calculator);
 		sessionmanager.Start(scanner);
-		System.out.println(calculator.getInfo());
+		
 		
 	}
 } // end class Welcome

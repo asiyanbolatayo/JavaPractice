@@ -26,7 +26,8 @@ public class SessionManager
 		}
 		//3. Start session
 		//3.1 Display start session message
-		System.out.println("\n\tSession begins...");
+		System.out.println("\n\tCalculator Session begins...");
+		System.out.println("\n\tEnter Input after the > sign in the format 'x + y' or 'end' to Terminate");
 		// 3.2 Execute session loop until user terminates with end command
 		while (true)
 		{
