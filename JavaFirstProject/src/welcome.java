@@ -12,7 +12,7 @@ public class welcome
 		System.out.printf( "%s\n%s\n", "Welcome to", "Java Programming!" );
 		//addtwonumbers();
 		//testExclusiveOROperator();
-		//testCalculator();
+		testCalculator();
 	} // end method main
 	
 	

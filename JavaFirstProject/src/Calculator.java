@@ -32,8 +32,20 @@ public class Calculator
 	{
 		String[] p = prompt.split(" ");
 		
-		double x = Double.parseDouble(p[0]);
-		double y = Double.parseDouble(p[2]);
+		double x, y; // Initialise variable
+		
+		if ((p[0].compareTo("acc") == 0)) {
+			x = acc;
+		} else {
+			x = Double.parseDouble(p[0]);
+		}
+		
+		if ((p[2].compareTo("acc") == 0)) {
+			y = acc;
+		} else {
+			y = Double.parseDouble(p[2]);
+		}
+		
 		double result = 0;
 		
 		switch (p[1])

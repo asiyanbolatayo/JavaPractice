@@ -10,7 +10,6 @@ public class SessionManager
 	
 	public void Start(Scanner scanner)
 	{
-		String input;
 		//begin
 		//1. validate calculator
 		if (calculator == null)	
@@ -34,7 +33,7 @@ public class SessionManager
 			//4. ask for prompt
 			System.out.print("...>");
 			//5. read prompt
-			String prompt = scanner.nextLine();
+			String prompt = scanner.nextLine().toLowerCase();
 			//6. if prompt is "end" terminate session
 			if (prompt.compareTo("end") == 0)
 				break;
