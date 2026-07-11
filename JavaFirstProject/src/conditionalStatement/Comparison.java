@@ -1,3 +1,4 @@
+package conditionalStatement;
 import java.util.Scanner;
 public class Comparison {
 
