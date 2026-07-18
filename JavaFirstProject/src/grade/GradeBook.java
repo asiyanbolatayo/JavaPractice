@@ -14,19 +14,19 @@ public class GradeBook
 		instructorName = instructor;
 	} // end constructor
 	
-	//method to set the course name
-	public void setCourseName( String name) {
-		courseName = name; //store the course name
-	}// end method setCourseName
+//	//method to set the course name
+//	public void setCourseName( String name) {
+//		courseName = name; //store the course name
+//	}// end method setCourseName
 	
 	//method to retrieve the course name
 	public String getCourseName() {
 		return courseName;
-	}// end method getCOursename
+	}// end method getCOurseName
 	
 	public String getInstructorName() {
 		return instructorName;
-	}// end method getCOursename
+	}// end method getInstructorName
 	
 	// Display a welcome message to the GradeBook user
 	public void displayMessage() {
