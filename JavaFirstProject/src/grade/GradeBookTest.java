@@ -15,11 +15,11 @@ public class GradeBookTest {
 		
 		System.out.printf( "gradeBook1 course name is: %s\n", 
 				gradeBook1.getCourseName() );
-		System.out.printf( "gradeBook1 instructor name is: %s\n", 
+		System.out.printf( "This course is presented by: %s\n", 
 				gradeBook1.getInstructorName() );
 		System.out.printf( "gradeBook2 course name is: %s\n", 
 				gradeBook2.getCourseName() );
-		System.out.printf( "gradeBook2 instructor name is: %s\n", 
+		System.out.printf( "This course is presented by: %s\n", 
 				gradeBook2.getInstructorName() );
 		// create a scanner to obtain input
 //		Scanner input = new Scanner(System.in );
