@@ -18,10 +18,10 @@ public class Account {
 		balance = balance + amount; //add amount to the balance
 	} //end method credit
 	
-	// credit (add) an amount to the account
-		public void debit( double amount ) {
-			balance = balance - amount; //subtract amount from the balance
-		} //end method credit
+	// debit (subtract) an amount to the account
+	public void debit( double amount ) {
+		balance = balance - amount; //subtract amount from the balance
+	} //end method credit
 	
 	// return the account balance
 	public double getBalance() {
